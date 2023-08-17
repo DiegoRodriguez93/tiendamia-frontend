@@ -1,0 +1,23 @@
+.exportButton {
+  background: linear-gradient(to bottom, #2c2e31 5%, #050606 100%);
+  background-color: #121d28;
+  border-radius: 5px;
+  border: 1px solid #020305;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #060a0e;
+}
+.exportButton:hover {
+  background: linear-gradient(to bottom, #0a1c2e 5%, #444a4f 100%);
+  background-color: #050d15;
+}
+.exportButton:active {
+  position: relative;
+  top: 1px;
+}
